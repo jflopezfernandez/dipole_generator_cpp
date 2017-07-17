@@ -12,6 +12,11 @@
 #include <iostream>
 #include <chrono>
 #include <ratio>
+#include <ostream>
+#include <fstream>
+#include <thread>
+#include <mutex>
+#include <functional>
 
 
 /** C Standard Library Headers */
@@ -19,10 +24,18 @@
 #include <cstdlib>
 
 
+/** GCC */
+#include <quadmath.h>
+typedef __float128 real;
+
+
 
 /** Application Header Files */
-#include "Timer.hpp"
-
+#include "GlobalData.hpp"
+#include "Point3D.hpp"
+#include "Vector3D.hpp"
+#include "Matrix3D.hpp"
+#include "SupercellConfiguration.hpp"
 
 
 

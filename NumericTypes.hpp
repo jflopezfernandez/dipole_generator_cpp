@@ -1,0 +1,14 @@
+//
+// Created by admin on 7/17/2017.
+//
+
+#ifndef DIPOLE_GENERATOR_CPP_NUMERICTYPES_HPP
+#define DIPOLE_GENERATOR_CPP_NUMERICTYPES_HPP
+
+
+class NumericTypes {
+
+};
+
+
+#endif //DIPOLE_GENERATOR_CPP_NUMERICTYPES_HPP
