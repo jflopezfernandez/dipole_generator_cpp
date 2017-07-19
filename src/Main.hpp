@@ -7,15 +7,25 @@
 
 
 #include <iostream>
+#include <iomanip>
 #include <chrono>
 #include <ratio>
 #include <fstream>
+#include <limits>
 
 #include <cstdio>
 #include <cstdlib>
+#include <cmath>
+
+#include <mkl.h>
 
 #include "OS-Dependent-Features.hpp"
+#include "Utilities.hpp"
 #include "GlobalData.hpp"
+#include "Vector-Main.hpp"
+#include "Matrix-Main.hpp"
+#include "Supercell-Main.hpp"
+
 
 
 

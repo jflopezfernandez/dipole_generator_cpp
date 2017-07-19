@@ -1,0 +1,6 @@
+#ifndef SUPERCELL_BULK_HPP
+#define SUPERCELL_BULK_HPP
+
+//..
+
+#endif // SUPERCELL_BULK_HPP

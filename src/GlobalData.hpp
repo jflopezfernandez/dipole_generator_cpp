@@ -2,6 +2,9 @@
 #define GLOBAL_DATA_HPP
 
 
+#define DEFAULT 0
+
+
 // Numeric Types
 #include <cstdint>
 typedef int8_t STATUS;
@@ -16,7 +19,9 @@ enum SUPERCELL_TYPES {
 
 enum STATUS_TYPES {
 	SUCCESS=1,
-	ERROR=-1
+	ERROR=-1,
+	DEBUG=2,
+	UNDER_CONSTRUCTION=3
 };
 						
 

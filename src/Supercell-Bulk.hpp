@@ -1,6 +1,8 @@
 #ifndef SUPERCELL_BULK_HPP
 #define SUPERCELL_BULK_HPP
 
-//..
+
+STATUS Bulk(int d);
+
 
 #endif // SUPERCELL_BULK_HPP

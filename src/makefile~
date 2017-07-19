@@ -3,6 +3,7 @@ CPP := icpc
 
 CPPFLAGS := -g -std=c++14 -strict-ansi -Wall -Werror-all                      \
             -Wstrict-aliasing -no-intel-extensions -Wcheck
+LNKFLAGS := -mkl
 
 # Unrecognized compiler flags
 # -0d
@@ -23,4 +24,4 @@ $(OBJS): $(SRCS)
 
 clean:
 	rm -rf $(OBJS)
-	rm DIP3D
+	rm ./DIP3D

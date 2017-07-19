@@ -1,0 +1,12 @@
+#ifndef T_CONSTANTS
+#define T_CONSTANTS
+
+
+template <int N>
+struct PI {
+	//static constexpr auto value = atan(1.0) * 4.0 * N;
+	static constexpr auto value = ERROR;
+};
+
+
+#endif // T_CONSTANTS
