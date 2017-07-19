@@ -12,6 +12,7 @@
 #include <ratio>
 #include <fstream>
 #include <limits>
+#include <bitset>
 
 #include <cstdio>
 #include <cstdlib>

@@ -17,8 +17,6 @@
 int main()
 {
     system(CLEARSCREEN);
-    
-    const auto start = std::chrono::system_clock::now();
 
     std::cout << "Please enter supercell dimension: ";
     const auto n = IO::get<int>();
@@ -47,18 +45,18 @@ int main()
     	default: std::cout << "[ERROR] Could not understand input... \n"; exit(ERROR);
     }
     
+    const auto start = std::chrono::system_clock::now();
     
     GenerateSupercell(n);
-    
-    
     
     
     // Program wind-down -> close buffers and stop timer
     dipoleoutputfile.close();
     const auto end = std::chrono::system_clock::now();
     
-    std::cout << "\nProgram running time: ";
+    std::cout << "\nSupercell Generation Time: ";
     const auto diff = end - start;
     std::cout.precision(6);
-    std::cout << std::chrono::duration<double, std::ratio<1,1000>>(diff).count() << "ms \n";
+    std::cout << std::chrono::duration<double, std::ratio<1,1000>>(diff).count() << "ms - (";
+    std::cout << std::chrono::duration<double, std::ratio<1,1>>(diff).count() << " secs) \n";
 }
