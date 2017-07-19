@@ -15,9 +15,7 @@ enum SUPERCELL_TYPES {
 };
 
 enum STATUS_TYPES {
-	SUCCESS=1,
-	ERROR=-1
-};
+	
 						
 
 #endif // GLOBAL_DATA_HPP

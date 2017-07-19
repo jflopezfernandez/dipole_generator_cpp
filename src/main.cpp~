@@ -9,7 +9,6 @@
 #include "Template-Input_Validation.hpp"
 
 
-#define POW2(x) (x*x)
 #define POW3(x) (x*x*x)
 
 
